@@ -57,11 +57,11 @@
 
 #########################################
 #5
-a = [1,2]
+# a = [1,2]
 
-print ("Список большой длины{a}".format (a=len(a)))
+# print ("Список большой длины{a}".format (a=len(a)))
 
-if len(a) > 3 :
-    print(sum (a) )
-if len (a) < 3 :
-    print (min(a) )
+# if len(a) > 3 :
+#     print(sum (a) )
+# if len (a) < 3 :
+#     print (min(a) )
