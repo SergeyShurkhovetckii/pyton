@@ -30,22 +30,30 @@
 
 ##############################################
 #5
-def action (i,end):
-    if i <= end :
-        print(i)
-    else :
-        print("Число не входит с диапозон ")    
+# def action (i,end):
+#     if i <= end :
+#         print(i)
+#     else :
+#         print("Число не входит в диапозон ")    
 
-end = 10 
-i = int(input("Введите число из диопазона "))
-
-
-action (i,end)
+# end = 10 
+# i = int(input("Введите число из диопазона "))
 
 
+# action (i,end)
 
 #############################################
 #6
 
+def action (a) :
+    if a % 3 ==0:
+        print(a%3)
+    if a % 7 ==0 :     
+         print(a%7)
+    else :
+        print("число не делиться на 3 и на 7 ")     
 
+        
+a = int(input("Введите число"))
 
+action(a)
