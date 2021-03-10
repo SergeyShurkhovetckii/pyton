@@ -1,14 +1,14 @@
 ###################
-# #1
-# def action ():
-#     for i in range(1 ,end):
-#         print(i )
+#1
+def action ():
+    for i in range(1 ,end):
+        print(i )
 
 
-# end = int(input("Введите диопазон"))
+end = int(input("Введите диопазон"))
 
 
-# action ()
+action ()
 
 #########################
 #2
@@ -84,30 +84,30 @@
 
 ##################################
 #7
-def action(a,b,c):
-    discriminant = b**2 - 4*a*c
-    print("Дискриминант равен {}".format(discriminant))
-    if discriminant < 0:
-	    print("Корней нет")
+# def action(a,b,c):
+#     discriminant = b**2 - 4*a*c
+#     print("Дискриминант равен {}".format(discriminant))
+#     if discriminant < 0:
+# 	    print("Корней нет")
 
 
-    if 	discriminant > 0:
-        x1  = (-b + math.sqrt(discriminant)) / ( 2 * a)
-        x2  = (-b - math.sqrt(discriminant)) / ( 2 * a)
-        print("Ввыводим{x}".format (x=x1))
-        print("Ввыводим{x2}".format (x2=x2))
+#     if 	discriminant > 0:
+#         x1  = (-b + math.sqrt(discriminant)) / ( 2 * a)
+#         x2  = (-b - math.sqrt(discriminant)) / ( 2 * a)
+#         print("Ввыводим{x}".format (x=x1))
+#         print("Ввыводим{x2}".format (x2=x2))
 
-    if  discriminant == 0:
-        x = -b / ( 2 * a)
-        print("Ввыводим x {} ".format(x))
-
-
-a = int(input('Веедите a'))
-b = int(input('Веедите b'))
-c = int(input('Веедите c'))
+#     if  discriminant == 0:
+#         x = -b / ( 2 * a)
+#         print("Ввыводим x {} ".format(x))
 
 
-action(a,b,c)
+# a = int(input('Веедите a'))
+# b = int(input('Веедите b'))
+# c = int(input('Веедите c'))
+
+
+# action(a,b,c)
 
 
 
