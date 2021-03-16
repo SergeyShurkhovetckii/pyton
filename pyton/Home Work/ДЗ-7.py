@@ -2,13 +2,13 @@
 #1
 # Найти сумму ряда чисел от 1 до 100. Полученный результат вывести на экран
 
-# def action():
-#     for i in range (1 , 100):
-#         # print(i)   
-#         z = i +(i + 1) 
-#         print(z)
+def action():
+    for i in range (1 , 100):
+        # print(i)
+        z = i +(i + 1)
+        print(z)
 
-# action ()
+action ()
 
 #############################################
 #2
@@ -37,24 +37,24 @@
 ###################################################
 #4
 # Записать в массив все числа в диапазоне от 54 до 9184 кратные 5
-
+#
 # def action ():
 #     for i in range (54 , 9184):
 #         if i % 5 == 0 :
 #             print(i)
-
-
+#
+#
 # action()
 ######################################################
 
 # def action ():
-#     A = [ for i in range(N)] :
+#     A = [ for i in range(N)]:
 #     if A % 5 == 0 :
 #     print(A)
-
-
+#
+#
 # N = 9184
-
+#
 # action()
 ###########################
 #5
@@ -62,12 +62,12 @@
 # def action ():
 #     for i in range (10 ,15 ):
 #         for b in i :
-
-# action()    
+#
+# action()
 
 ###################################
-numb = int(input("Введите целое число: "))
-print("Результат:", end = " ")
-for i in range(numb - 1, 1, -1):
-    if (numb % i == 0):
-        print(i, end = " ")
+# numb = int(input("Введите целое число: "))
+# print("Результат:", end = " ")
+# for i in range(numb - 1, 1, -1):
+#     if (numb % i == 0):
+#         print(i, end = " ")
