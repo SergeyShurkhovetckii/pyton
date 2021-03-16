@@ -1,5 +1,5 @@
 
-def action (b1 , a):
+def action(b1, a):
     for p in a:
         for b in p:
             if b == b1:
@@ -42,8 +42,7 @@ if len(b) > 1 :
 else :
     a = ['red','whithe', 'blue', ' cat' , 'skainer']    
     action(b , a )
-    
-2
+
 
 count = 0 
 
