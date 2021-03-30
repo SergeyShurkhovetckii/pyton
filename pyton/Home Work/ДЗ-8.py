@@ -5,17 +5,17 @@
 # числа на промежутке от 1000 до 50000
 
 
-# def action ():
-#     integers = []
-#     for i in range (1000 , 50000):
-#         if i % 5 == 0 :
-#             integers.append(i)
-#     # return (integers[: -2])
-#     # return (integers.sorted(max))
-#     return max(integers)
-# # Как получить 2 хз
-# a = action()
-# print(a)
+def action ():
+    integers = []
+    for i in range (1000 , 50000):
+        if i % 5 == 0 :
+            integers.append(i)
+    # return (integers[: -2])
+    # return (integers.sorted(max))
+    return max(integers)
+# Как получить 2 хз
+a = action()
+print(a)
 
 ################################
 #2
@@ -29,18 +29,18 @@
 # Известно, что на вход программы поступила строка из 52 подряд идущих комбинаций «АВ»
 
 
-# a = 'AB' * 52
-# print(a)
-#
-# while 'AA' in a or 'BB' in a or 'AB' in a :
-#     if 'AA' in a :
-#         a=a.replace('AA', 'B',1)
-#     if 'BB' in a :
-#         a=a.replace('BB', 'A',1)
-#     if 'AB' in a :
-#         a=a.replace('AB','BA',1)
-#
-# print(a)
+a = 'AB' * 52
+print(a)
+
+while 'AA' in a or 'BB' in a or 'AB' in a :
+    if 'AA' in a :
+        a=a.replace('AA', 'B',1)
+    if 'BB' in a :
+        a=a.replace('BB', 'A',1)
+    if 'AB' in a :
+        a=a.replace('AB','BA',1)
+
+print(a)
 
 ##################################
 #3
@@ -69,9 +69,21 @@ while '11' in s :
     if '43' in s:
         s=s.replase ('43','1',1)
 
-print(s)
+# print(s)
 
 
 #####################################
 #4
+# задача, нужно найти количество комбинаций
+# четырехбуквенных слов которые можно составить из слова мандарин
 
+m = 'мандарин'
+
+n = 0
+for i in m :
+    for o in m :
+        for p in m:
+            for z in m :
+                temp = i + o + p+ z
+                n += 1
+                print(n , temp)
